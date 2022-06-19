@@ -1,0 +1,136 @@
+
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-tabs {
+    margin-top: -.37rem;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 2rem;
+    clip-path: polygon(0 0, 100% 0, 97.4% 100%, 0 100%, 2.6% 100%);
+    /* border-radius: 0 0 20px 20px; */
+    /* overflow: hidden; */
+    position: sticky;
+    top: 0;
+    /* width: 100%; */
+    overflow: hidden;
+}
+
+/* .nav-tabs-corner {
+    width: 10rem;
+    height: 5rem;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-tabs-left-corner {
+    transform: rotate(45deg) translate(-4.4rem, -.2rem);
+}
+
+.nav-tabs-right-corner {
+    transform: rotate(135deg) translate(-84rem, -72rem);
+} */
+
+.nav-tab {
+    margin: .8rem;
+    background-color: green;
+    padding: .8rem;
+    border-radius: .2rem;
+    color: white
+}
+
+.nav-tab:hover {
+    box-shadow: 2px 2px 2px gray;
+}
+
+.cv-container {
+    display: flex;
+    /* justify-content: SPACE-BETWEEN; */
+    flex-wrap: wrap;
+    margin: 0 3rem;
+    scroll-behavior: smooth;
+    background-color: whitesmoke;
+    padding: 1rem 1rem;
+}
+
+.img-cv {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    border: solid rgb(142, 142, 235);   
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+    transition: 1s;
+    
+}
+
+.img-cv:hover {
+    box-shadow: 11px 1px 12px 14px lightgray;
+    border: solid blue;
+}
+
+.cv-sub-container {
+    margin-left: 12rem;
+    flex: 1;
+}
+
+.cv-experience, .cv-education {
+    /* margin-top: 8rem; */
+    /* margin-left: 4rem; */
+    font-size: 2rem;
+    margin-top: 6rem;
+}
+
+.cv-certs {
+    font-size: 1.4rem;
+    margin-top: 4rem;
+}
+
+.cv-name {
+    font-size: 7rem;
+    margin: 0%;
+}
+
+.cv-about {
+    /* flex: .8;
+    float: left; */
+    width: 28rem;
+    display: block;
+    margin-left: 4rem;
+}
+
+.cv-tech-skills {
+    margin-top: 4rem;
+}
+
+.cv-education {
+    text-align: center;
+}
+
+.cv-certs {
+    margin-top: 4rem;
+}
+
+.cv-details {
+    display: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 12rem;
+    margin-top: 8rem;
+    margin-right: -1rem;
+    margin-bottom: -1rem;
+    /* margin-left: 1.2rem; */
+    background-color: lightgray;
+    padding: 2rem;
+    /* border-radius: .4rem */
+    width: 120%;
+    margin-left: -1rem;    
+}

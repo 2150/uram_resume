@@ -1,0 +1,18 @@
+.references-container {
+    margin-top: 4rem;
+    font-weight: 500;
+    font-size: large;
+}
+
+.references-container .referee-company {
+    margin-top: .8rem;
+}
+
+.referee-name {
+    margin-top: 0%;
+    /* font-weight: bold; */
+}
+
+.referee-contact {
+    align-self: end;
+}

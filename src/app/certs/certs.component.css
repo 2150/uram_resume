@@ -1,0 +1,40 @@
+.cert-header-paragraph {
+    margin-bottom: 0%;
+}
+
+.cert-year {
+    margin-top: 0%;
+    /* margin-bottom: 0%; */
+}
+
+.cert {
+    border: .2px;
+    border-radius: 2px;
+    padding: .8rem;
+    box-shadow: 1px 1px 1px 2px gray;
+}
+
+.cert:hover {
+    box-shadow: 4px 1px 1px 2px gray;
+}
+
+.cert-link {
+    text-decoration: none;
+    color: black;
+}
+
+.cert-1 {
+    background-color: lightgray;
+}
+
+.cert-3 {
+    background-color: lightgray;
+}
+
+.cert-5 {
+    background-color: lightgray;
+}
+
+.cert-7 {
+    background-color: lightgray;
+}

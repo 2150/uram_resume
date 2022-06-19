@@ -1,0 +1,65 @@
+<nav class="nav-tabs">
+  <a href="#about" class="nav-tab">ABOUT</a>
+  <a href="#skills" class="nav-tab">TECH SKILLS</a>
+  <a href="#certs" (click)="scrollToElement(certs)" class="nav-tab">ACHIEVED CERTIFICATIONS</a>
+  <a href="#personalDetails" class="nav-tab">PERSONAL DETAILS</a>
+  <a href="#contactDetails" class="nav-tab">CONTACT DETAILS</a>
+  <a href="#references" class="nav-tab">REFERENCES</a>
+</nav>
+
+<div class="nav-tabs-corner nav-tabs-left-corner"></div>
+<div class="nav-tabs-corner nav-tabs-right-corner"></div>
+
+<div class="cv-container">
+  <div class="img-container">
+    <img src="../assets/images/uram_formal.jpg" class="img-cv">
+
+    <div class="cv-about" id="about">
+      <app-about></app-about>
+    
+      <div class="cv-tech-skills" id="skills">
+        <app-tech-skills></app-tech-skills>
+      </div>
+
+      <div class="cv-certs" id="certs" #certs>
+        <app-certs></app-certs>
+      </div>
+
+      
+    </div>
+    
+  </div>
+  
+  
+
+  <div class="cv-sub-container">
+    <div class="cv-heading">
+      <h1 class="cv-name">Uram Mnisi</h1>
+      <h3>Test Automation Engineer | Test Analyst | Software Developer</h3>
+    </div>
+
+    <div class="cv-experience">
+      <app-experience></app-experience>
+      
+    </div>
+
+    <div class="cv-education">
+      <app-education></app-education>
+    </div>
+  </div>
+  <div class="cv-details">
+    <div class="cv-personal-details" id="personalDetails">
+      <app-personal-details></app-personal-details>
+    </div>
+  
+    <div class="cv-contact-details" id="contactDetails">
+      <app-contact-details></app-contact-details>
+    </div>
+  
+    <div class="cv-references" id="references">
+      <app-references></app-references>
+    </div>
+  </div>
+</div>
+
+

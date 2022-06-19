@@ -1,0 +1,20 @@
+<h1>TECHNICAL SKILLS</h1>
+
+<div class="tech-skills-container">
+    <div class="skill-container">
+        
+        <!-- <progress max="20%"></progress> -->
+        <div class="tech-levels" *ngFor="let techSkill of techSkills index as i">
+            <p class="skill-paragraph">
+                <span class="java-span" *ngIf="i < techSkills.length / 2"> {{ techSkills[i] }} </span>
+            </p>
+            <p >
+                <span class="python-span" *ngIf="i < techSkills.length / 2">{{techSkills[techSkills.length-(i+1)]}}</span>
+            </p>
+            <!-- <div class="skills"> -->
+            <div ngClass="skill-{{i}} skills" *ngIf="(techSkills.length / 2) > i"><div ngClass="skill-{{i}}-level"></div></div>
+            <div class="skills" *ngIf="(techSkills.length / 2) > i"><div ngClass="skill-{{techSkills.length-(i+1)}}-level"></div></div>
+        <!-- </div> -->
+        </div>
+    </div>
+</div>

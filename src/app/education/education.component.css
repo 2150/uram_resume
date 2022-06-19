@@ -1,0 +1,22 @@
+.edu-header-paragraph {
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+
+.edu-qualification-paragraph {
+    margin-top: 0%;
+}
+
+.edu {
+    padding: .02rem;
+    /* text-align: center; */
+}
+
+.edu-1 {
+    box-shadow: 2px 1px 2px 1px gray;
+    background-color: lightgray;
+}
+
+.edu-2 {
+    box-shadow: 0px 2px 2px grey;
+}

@@ -1,0 +1,47 @@
+.exp-header {
+    font-weight: bold;
+    margin-bottom: 1px;
+    margin-top: 4.2rem;
+}
+
+.exp-company {
+    margin-top: auto;
+}
+
+.exp-company-paragraph {
+    margin-top: 0;
+}
+
+.exp-header-paragraph {
+    margin-bottom: 0%;
+}
+
+.exp-container {
+    padding: 0%;
+}
+
+.exp-duties-paragraph {
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font-weight: 0;
+    margin-bottom: 0%
+}
+
+.exp-duties {
+    margin-top: 0%;
+}
+
+ul li p {
+    font-size: large;
+    font-weight: 500;
+    margin: 0%;
+}
+
+.exp-line {
+    width: 34rem;
+}
+
+.exp-duration {
+    font-size: medium;
+    font-weight: 500;
+}

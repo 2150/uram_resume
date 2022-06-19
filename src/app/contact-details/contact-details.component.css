@@ -1,0 +1,34 @@
+.contact-details-container {
+    margin-top: 4rem;
+    font-weight: 500;
+    font-size: large;
+}
+
+.contact-details-container div {
+    margin-top: .8rem;
+}
+
+.contact-icon {
+    width: 1rem;
+    padding: .4rem;
+    padding-right: .4rem;
+    padding-left: .4rem;
+    background-color: black;
+    border-radius: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact-cell-number-paragraph, .contact-email-address-paragraph, .contact-linkedin-paragraph {
+    display: inline;
+    padding-left: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.link-github {
+    display: flex;
+    align-items: center;
+}

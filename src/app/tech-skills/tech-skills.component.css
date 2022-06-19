@@ -1,0 +1,169 @@
+.tech-skills-container {
+    border-radius: .2rem;
+    box-shadow: 2px 2px 2px 2px gray;
+    /* text-align: center; */
+    padding-left: 2rem;
+    height:  57rem;
+}
+
+.skills {
+    width: 10rem;
+    height: 1.2rem;
+    /* background-color: gray; */
+    border: solid .01rem;
+    
+}
+
+.tech-levels {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+.skill-0-level {
+    background-color: lightgreen;
+    width: 8rem;
+    height:1.2rem;
+}
+
+.skill-1-level {
+    background-color: lightgreen;
+    width: 7rem;
+    height:1.2rem;
+}
+
+.skill-2-level {
+    background-color: lightgreen;
+    width: 7rem;
+    height:1.2rem;
+}
+
+.skill-3-level {
+    background-color: lightgreen;
+    width: 7.5rem;
+    height:1.2rem;
+}
+
+.skill-4-level {
+    background-color: lightgreen;
+    width: 5.7rem;
+    height:1.2rem;
+}
+
+.skill-5-level {
+    background-color: lightgreen;
+    width: 7rem;
+    height:1.2rem;
+}
+
+.skill-6-level {
+    background-color: lightgreen;
+    width: 2rem;
+    height:1.2rem;
+}
+
+.skill-7-level {
+    background-color: lightgreen;
+    width: 5.2rem;
+    height:1.2rem;
+}
+
+.skill-8-level {
+    background-color: lightgreen;
+    width: 5rem;
+    height:1.2rem;
+}
+
+.skill-9-level {
+    background-color: lightgreen;
+    width: 6.2rem;
+    height:1.2rem;
+}
+
+.skill-10-level {
+    background-color: lightgreen;
+    width: 2.5rem;
+    height:1.2rem;
+}
+
+.skill-11-level {
+    background-color: lightgreen;
+    width: 7.2rem;
+    height:1.2rem;
+}
+
+.skill-12-level {
+    background-color: lightgreen;
+    width: 4.7rem;
+    height:1.2rem;
+}
+
+.skill-13-level {
+    background-color: lightgreen;
+    width: 9rem;
+    height:1.2rem;
+}
+
+.skill-14-level {
+    background-color: lightgreen;
+    width: 7rem;
+    height:1.2rem;
+}
+
+.skill-15-level {
+    background-color: lightgreen;
+    width: 7rem;
+    height:1.2rem;
+}
+
+.skill-16-level {
+    background-color: lightgreen;
+    width: 7rem;
+    height:1.2rem;
+}
+
+.skill-17-level {
+    background-color: lightgreen;
+    width: 7.5rem;
+    height:1.2rem;
+}
+
+.skill-18-level {
+    background-color: lightgreen;
+    width: 3rem;
+    height:1.2rem;
+}
+
+.skill-19-level {
+    background-color: lightgreen;
+    width: 5rem;
+    height:1.2rem;
+}
+
+/* ------- Spring Boot ----------*/
+.skill-20-level {
+    background-color: lightgreen;
+    width: 7rem;
+    height:1.2rem;
+}
+
+/* ------- Django ----------*/
+.skill-21-level {
+    background-color: lightgreen;
+    width: 5.5rem;
+    height:1.2rem;
+}
+
+/* ------- Express ----------*/
+.skill-22-level {
+    background-color: lightgreen;
+    width: 5rem;
+    height:1.2rem;
+}
+
+/* ------- Kivy ----------*/
+.skill-23-level {
+    background-color: lightgreen;
+    width: 6.2rem;
+    height:1.2rem;
+}
